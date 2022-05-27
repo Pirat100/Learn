@@ -38,11 +38,11 @@ public:
 		}
 	}
 };
-//
-//int main() {
-//    matrix m1(11, 4);
-//    int temp = 12345;
-//    m1.putel(7, 4, temp);
-//    temp = m1.getel(7, 4);
-//	return 0;
-//}
+
+int main() {
+   matrix m1(11, 4);
+   int temp = 12345;
+   m1.putel(7, 4, temp);
+   temp = m1.getel(7, 4);
+	return 0;
+}
