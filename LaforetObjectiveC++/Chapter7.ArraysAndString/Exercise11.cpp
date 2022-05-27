@@ -50,14 +50,14 @@ public:
 	}
 };
 
-//int main() {
-//	long double s_money;
-//	cout << "¬ведите денежную сумму в формате \"xxxx.xx\":";
-//	cin >> s_money;
-//	money m;
-//	string result = m.ldtoms(s_money);
-//	cout << "¬веденна€ вами сумма: " << result << endl;
-//	return 0;
-//}
+int main() {
+	long double s_money;
+	cout << "Input sum in format \"xxxx.xx\":";
+	cin >> s_money;
+	money m;
+	string result = m.ldtoms(s_money);
+	cout << "Sum in new format: " << result << endl;
+	return 0;
+}
 
 
