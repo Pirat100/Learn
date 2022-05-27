@@ -36,20 +36,20 @@ public:
 		return qu[++head];
 	}
 };
-//
-//int main() {
-//    Queue q1;
-//    q1.put(11);
-//    q1.put(22);
-//    cout << "1: " << q1.get() << endl;
-//    cout << "2: " << q1.get() << endl;
-//    q1.put(33);
-//    q1.put(44);
-//    q1.put(55);
-//    q1.put(66);
-//    cout << "3: " << q1.get() << endl;
-//    cout << "4: " << q1.get() << endl;
-//    cout << "5: " << q1.get() << endl;
-//    cout << "6: " << q1.get() << endl;
-//	return 0;
-//}
+
+int main() {
+   Queue q1;
+   q1.put(11);
+   q1.put(22);
+   cout << "1: " << q1.get() << endl;
+   cout << "2: " << q1.get() << endl;
+   q1.put(33);
+   q1.put(44);
+   q1.put(55);
+   q1.put(66);
+   cout << "3: " << q1.get() << endl;
+   cout << "4: " << q1.get() << endl;
+   cout << "5: " << q1.get() << endl;
+   cout << "6: " << q1.get() << endl;
+	return 0;
+}
