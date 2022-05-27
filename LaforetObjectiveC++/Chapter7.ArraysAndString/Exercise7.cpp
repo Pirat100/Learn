@@ -22,15 +22,15 @@ public:
 		return atof(sresult);
 	}
 };
-//
-//int main() {
-//	string s_money;
-//	cout << "¬ведите денежную сумму в формате \"$ x xxx.xx\":";
-//	getline(cin, s_money);
-//	money m;
-//	long double result = m.mstold(s_money);
-//	cout << "¬веденна€ вами сумма: " << result << endl;
-//	return 0;
-//}
+
+int main() {
+	string s_money;
+	cout << "Input sum in format \"$ x xxx.xx\":";
+	getline(cin, s_money);
+	money m;
+	long double result = m.mstold(s_money);
+	cout << "Sum in new format: " << result << endl;
+	return 0;
+}
 
 
