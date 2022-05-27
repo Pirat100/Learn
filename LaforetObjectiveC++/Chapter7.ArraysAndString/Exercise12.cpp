@@ -71,14 +71,14 @@ public:
 		return result;
 	}
 };
-//
-//int main() {
-//	bMoney m1, m2, m3;
-//	m1.putmoney();
-//	m2.putmoney();
-//	m3.madd(m1, m2);
-//	m3.getmoney();
-//	return 0;
-//}
+
+int main() {
+	bMoney m1, m2, m3;
+	m1.putmoney();
+	m2.putmoney();
+	m3.madd(m1, m2);
+	m3.getmoney();
+	return 0;
+}
 
 
