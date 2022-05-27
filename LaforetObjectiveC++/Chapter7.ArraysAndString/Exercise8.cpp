@@ -25,11 +25,11 @@ public:
 		}
 	}
 };
-//
-//int main() {
-//    safearray sa1;
-//    int temp = 12345;
-//    sa1.putel(0, temp);
-//    temp = sa1.getel(1);
-//	return 0;
-//}
+
+int main() {
+   safearray sa1;
+   int temp = 12345;
+   sa1.putel(0, temp);
+   temp = sa1.getel(1);
+	return 0;
+}
